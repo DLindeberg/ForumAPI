@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(189, 189, 189);
+    text-align: center;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(134, 135, 136);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(3, 3, 3);
+    border-radius: 24px;
+}
+h1 {
+    font-family: Arial;
+    color: rgba(235, 225, 225, 0.15);
+    font-size: 80px;
+    font-weight: normal;
+    text-align: center;
+    grid-area: a;
+    margin-top: -5px; 
+}
+#PostForm {
+    display : flex;
+    flex-wrap : wrap;
+    margin: auto;
+    width: 20%
+}
+#UpdateForm {
+    align-items: center;
+    display: block;
+}
+#PostForm label{
+    display: block;
+}
+#post  {
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(88, 86, 86, 0.692);
+    margin: auto;
+    width: 37%
+}
+#post label {
+    display: block;
+}
+#errors {
+    margin: auto;
+    width: 15%;
+    color: red;
+    
+}

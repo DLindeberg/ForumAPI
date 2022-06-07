@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <script src="./js/profile.js"></script>
+</head>
+
+<body>
+    <style>
+        h1 { text-align: center;}
+        form {text-align: center;}
+    </style>
+    <h1>Welcome to your profile</h1>
+    <br />
+
+    <form id="PostForm">
+        <div>
+            <label>Title</label>
+            <textarea id="titleText" placeholder="Min Titel"></textarea>
+
+        </div>
+        <div>
+            <label>Description</label>
+            <textarea id="descriptionText" placeholder="Mitt Meddelande"></textarea>
+            <button type="submit">
+                Post
+            </button>
+
+        </div>
+
+        <br />
+    </form>
+    <form id="UpdateForm">
+        <label>Update</label>
+        <br />
+        <textarea id="updateText" placeholder="Uppdatera Meddelande"></textarea>
+        <br />
+        <br />
+        <div>
+            My Posts:
+        </div>
+    </form>
+    <div id="MyPosts">
+        
+    </div>
+
+</body>
+
+<script src="./js/forumpost.js"></script>
+
+</html>
